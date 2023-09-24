@@ -1,4 +1,13 @@
 .footer {
     display: flex;
-    justify-content: space-between;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: lightcyan;
+}
+.upper-footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;    
 }

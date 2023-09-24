@@ -3,7 +3,7 @@ import "./Styles/Home.css";
 
 const Home = () => {
   return (
-    <div className='container'>
+    <div className='full-home'>
     <h2>This is Home</h2>
     </div>
   );

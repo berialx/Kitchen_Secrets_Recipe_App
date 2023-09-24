@@ -30,7 +30,7 @@ function Recipes() {
     searchRecipes();
     getRandomQuote();
   }, []);
-    
+
   const handleSubmit = (event) => {
     event.preventDefault();
     searchRecipes();
@@ -54,8 +54,7 @@ function Recipes() {
 
   return (
     <div className="container">
-      <h2>Kitchen Secrets</h2>
-      <h2>የጣፋጭ ምግቦች ሚስጥሮች መገኛ</h2>
+      <h2>Welcome to the world of recipes. Search for what you want.</h2>
       <SearchBar
         isLoading={isLoading}
         query={query}
@@ -64,7 +63,7 @@ function Recipes() {
       />
       <div className="quotes">
         {randomQuoteIndex !== null && (
-          <p className="quote">{foodQuotes[randomQuoteIndex]}</p>
+          <p className="quote">!! {foodQuotes[randomQuoteIndex]} !!</p>
         )}
       </div>
       <div className="recipes">

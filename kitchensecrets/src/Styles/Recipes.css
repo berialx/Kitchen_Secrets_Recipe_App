@@ -10,17 +10,14 @@
     background-attachment: fixed;
     max-width: 100%;
     min-height: 100vh;
-    margin: 30px auto;
     padding: 30px;
-    border-radius: 20px;
   }
   
   h1, h2, h3, p {
     text-align: center;
   }
   
-  
-  
+   
   form {
     display: flex;
     width: 100%;
@@ -82,14 +79,14 @@
     font-weight: bold;
   }
   
-  a {
+  .Ingredients {
     width: 100%;
-    background-color: #c52b17;
+    background-color: lightslategray;
     color: inherit;
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;
-    text-decoration-color: salmon;
+    text-decoration-color: rgb(37, 8, 5), 8, 4);
   }
 
   .quotes {
@@ -101,10 +98,8 @@
     font-size: 28px;
     font-style: italic;
     font-weight: bold;
-    margin: 10px 0;
-    padding: 10px;
-    background-color: #44bd69;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    width: auto;
+    height: 80px;
+    background-color: rgb(198, 203, 211);
+    border-radius: 15px;
   }

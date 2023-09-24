@@ -1,12 +1,11 @@
-.container {
+.full-home {
     background-image: url(../Assets/BackgroundImages/greycolor.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     max-width: 100%;
     min-height: 100vh;
-    margin: 30px auto;
     padding: 30px;
-    border-radius: 20px;
+    margin: 0px;
   }
   

@@ -8,12 +8,14 @@
     align-items: center;
     padding: 0px;
 }
-
+.logo {
+    max-width: 120px;
+}
 .title {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #fff;
-    font-size: 3vw;
+    font-size: 1.5vw;
     font-weight: bolder;
     font-style: italic;
     letter-spacing: 0.5vw;
@@ -55,5 +57,5 @@
 }
 
 .nav-links a:hover {
-    color: #ecdbd5;
+    color: #0f0704;
 }

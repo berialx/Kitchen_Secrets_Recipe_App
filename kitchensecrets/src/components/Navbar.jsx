@@ -14,7 +14,8 @@ import Logo from "../Assets/BackgroundImages/Logo.PNG";
             <ul className='nav-links'>
               <li><Link to="/">Home</Link></li>
               <li><Link to="../Recipes">Recipes</Link></li>
-              <li><Link to="/About">About</Link></li>
+              <li><Link to="/About">About Us</Link></li>
+              <li><Link to="/Contact">Contact Us</Link></li>
             </ul>
           </nav>
         </div>

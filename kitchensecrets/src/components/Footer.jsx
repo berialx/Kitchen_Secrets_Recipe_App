@@ -8,15 +8,15 @@ import "../Styles/Footer.css"
         return (
             <div className='footer'>
                 <div className='upper-footer'>
-                    <div>
+                    <div className='social-media'>
                         <FaFacebookF />
                         <BsYoutube />
                         <BsTwitter />
                     </div>
-                    <div>
-                        <span>Tel - +251-111-11-11</span>
-                        <span>Email - Kitchensecrets@recipe.com</span>
-                        <span>Website - www.kitchensecrets.com</span>
+                    <div className="contact-info">
+                        <p>Tel - +251-111-11-11</p>
+                        <p>Email - Kitchensecrets@recipe.com</p>
+                        <p>Website - www.kitchensecrets.com</p>
                     </div>
                 </div>
                 <div className='lower-footer'>

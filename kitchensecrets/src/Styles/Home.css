@@ -1,5 +1,5 @@
 .full-home {
-    background-image: url(../Assets/BackgroundImages/greycolor.jpg);
+    background-image: url(../Assets/BackgroundImages/BG3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -7,5 +7,45 @@
     min-height: 100vh;
     padding: 30px;
     margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .home-pic {
+    height: 60vh;
+    width: auto;
+    padding: 0px;
+    border-radius: 5%;
+    opacity: 1.5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .home-pic:hover {
+    transform: scaleX(-1);
+  }
+  .welcome-note {
+    width: 250px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .welcome-note p {
+    font-size: 24px;
+    color: white;
+  }
+
+  .welcome-note h2 {
+    font-size: 32px;
+    color: white;
+  }
+
+  .welcome-note h4 {
+    font-size: 48px;
+    color: white;
+    padding: 0px;
   }
   

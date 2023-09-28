@@ -1,15 +1,18 @@
 .navbar {
+    position: absolute;
+    opacity: 0.8;
     background-color: #333;
     color: #fff;
     width: 100%;
-    max-height: 6%;
+    height: 5vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px;
+    padding-bottom: 10px;
 }
 .logo {
     max-width: 120px;
+    max-height: 5vw;
 }
 .title {
     font-family: Arial, Helvetica, sans-serif;

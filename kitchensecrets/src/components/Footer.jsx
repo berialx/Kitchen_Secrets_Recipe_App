@@ -14,7 +14,7 @@ import "../Styles/Footer.css"
                         <BsTwitter />
                     </div>
                     <div className="contact-info">
-                        <p>Tel - +251-111-11-11</p>
+                        <p>Tel - +251-913-79-2997</p>
                         <p>Email - Kitchensecrets@recipe.com</p>
                         <p>Website - www.kitchensecrets.com</p>
                     </div>

@@ -1,59 +1,69 @@
-.contact-us-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100%;
-    background-image: url(../Assets/BackgroundImages/BG3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    padding: 20px;
-  }
-  
-  .contact-us-container h1 {
-    font-size: 36px;
-    text-align: center;
-    margin-bottom: 125px;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 600px;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .h-captcha {
-    margin-bottom: 10px;
-  }
-  
-  button[type="submit"] {
-    background-color: #e97532;
-    color: #fff;
-    width: 600px;
-    height: 10%;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #0056b3;
-  }
+/* Contact.css */
 
-  label {
-    display: block;
-    margin: 0.5rem 0;
-  }
+.contact-us-container {
+  background-image: url(../Assets/BackgroundImages/BG3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  width: 100%;
+  height: 40vw;
+  margin: 0 auto;
+  padding-top: 100px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 50vw;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 150px;
+}
+
+button[type="submit"] {
+  background-color: #d9e2ec; /* Button background color */
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  width: 50vw;
+  height: 3vw;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 2s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3; /* Change the button background color on hover */
+}
+
+/* Styling for hCaptcha */
+.h-captcha {
+  margin-top: 10px;
+}

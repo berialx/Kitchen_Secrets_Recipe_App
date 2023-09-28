@@ -1,0 +1,59 @@
+.contact-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Assets/BackgroundImages/BG3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding: 20px;
+  }
+  
+  .contact-us-container h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 125px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 600px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .h-captcha {
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #e97532;
+    color: #fff;
+    width: 600px;
+    height: 10%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }

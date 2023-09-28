@@ -11,8 +11,9 @@
     padding-bottom: 10px;
 }
 .logo {
+    padding-top: 10px;
     max-width: 120px;
-    max-height: 5vw;
+    max-height: 5.5vw;
 }
 .title {
     font-family: Arial, Helvetica, sans-serif;

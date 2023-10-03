@@ -1,10 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home";
+import "./Styles/App.css";
 import Recipes from "./Recipes";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+
 
 function App() {
   return (

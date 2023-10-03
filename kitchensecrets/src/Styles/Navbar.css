@@ -1,14 +1,14 @@
 .navbar {
-    position: absolute;
-    opacity: 0.8;
     background-color: #333;
     color: #fff;
-    width: 100%;
-    height: 5vw;
+    max-width: 100%;
+    min-height: 5vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 10px;
+    padding-right: 20px;
+    transition: 0.3s ease-in-out;
 }
 .logo {
     padding-top: 10px;
@@ -25,19 +25,13 @@
     letter-spacing: 0.5vw;
 }
 
-.nav-links {
+#nav-links {
     display: flex;
     float: right;
     flex-direction: row;
 }
 
-@media screen and (max-width: 600px) {
-    .nav-links {
-        display: block;
-        font-size: smaller;
-    }
-}
-.nav-links ul {
+#nav-links ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -46,20 +40,73 @@
 }
 
 
-.nav-links li {
+#nav-links li {
     margin-right: 40px;
     display: flex;
     justify-content: space-between;
 }
 
-.nav-links a {
+#nav-links a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.nav-links a:hover {
+#nav-links a:hover {
     color: #0f0704;
+}
+
+#mobile {
+    display: none;
+}
+
+#mobile i{
+    color: white;
+}
+
+@media screen and (max-width:769px){
+    #nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-items: flex-start;
+        position: fixed;
+        top: 90px;
+        right: -300px;
+        width: 300px;
+        min-height: 200vh;
+        background-color: #2a3239;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 40px 0 0 10px;
+        transition: 0.5s ease-in-out;
+    }
+
+    #nav-links.active {
+        right: 0px;
+        top: 7vw;
+    }
+
+    #nav-links li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: block;
+    }
+
+    #mobile i {
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        transition: 0.3s ease-in-out;
+        width: 100%;
+    }
 }

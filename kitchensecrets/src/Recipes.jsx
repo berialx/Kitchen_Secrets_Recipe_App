@@ -54,7 +54,7 @@ function Recipes() {
 
   return (
     <div className="container">
-      <h2>Welcome to the world of recipes. Search for what you want.</h2>
+      <h2>Welcome to the world of recipes, You can search for what you want.</h2>
       <SearchBar
         isLoading={isLoading}
         query={query}
